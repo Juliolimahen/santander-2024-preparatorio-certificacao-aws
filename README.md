@@ -210,11 +210,13 @@ Exemplo 3 - Otimização de custos x Sustentabilidade
 ## Estratégias de Migração para a Nuvem com AWS CAF
 
 #### AWS CAF 
+
     - Identificar e priorizar opurtunidades de transformação digital
     - Avaliar e aumentar a prontidão para a nuvem 
     - Desenvolver um roteiro para guiar a transição dos negócios para a nuvem
 
 #### Beneficios do AWS CAF
+
     - Redução do risco comercial
         - Orquestrar as iniciativas de nuvem 
         - maximiza os beneficos organizacionais e minimiza os riscos relacionads à transformação 
@@ -265,100 +267,100 @@ Exemplo 3 - Otimização de custos x Sustentabilidade
         - Transformação de Produtos 
 
     Conjunto de capacidades fundamentais 
-    - habilidade Organizacional de usar processos para implamtar recursos 
+        - habilidade Organizacional de usar processos para implamtar recursos 
     para alcançar um resultado especifico 
-    - Orientação de práticas recomendadas para melhorar a prontidão para nuvem 
+        - Orientação de práticas recomendadas para melhorar a prontidão para nuvem 
 
     Perpectivas do AWS CAF 
-    - Negócios
-    - Pessoas 
-    - Governança
-    - Plataforma 
-    - Segurança 
-    - Operações  
+        - Negócios
+        - Pessoas 
+        - Governança
+        - Plataforma 
+        - Segurança 
+        - Operações  
 
     Perspectiva de negócios 
-    - Alinhamento dos investimentos em nuvem com as ambições de tranformações digital
-    - Cargos de CEO, CFO, COO, CIO e CTO 
-    - Evolução para uma culatura de crescimento e aprovetamento contínuos 
+        - Alinhamento dos investimentos em nuvem com as ambições de tranformações digital
+        - Cargos de CEO, CFO, COO, CIO e CTO 
+        - Evolução para uma culatura de crescimento e aprovetamento contínuos 
 
     Perspectiva de Pessoas 
-    - Evolução para uma cultura de crescimento e apendizado contínuos
-    - Cargos de CIO, COO, CTO, diretor de nuvem, além de líderes multifuncionais e de toda a empresa
+        - Evolução para uma cultura de crescimento e apendizado contínuos
+        - Cargos de CIO, COO, CTO, diretor de nuvem, além de líderes multifuncionais e de toda a empresa
 
     Perspectiva de governança 
-    - Orquestração de iniciativas de nuvem, maximizando os beneficios organizacionais de riscos
-    - Cargos de diretor de transformação, CIO, CTO, CFO, CDO e CRO 
+        - Orquestração de iniciativas de nuvem, maximizando os beneficios organizacionais de riscos
+        - Cargos de diretor de transformação, CIO, CTO, CFO, CDO e CRO 
 
     Perspectiva de plataformas 
-    - Criação de uma plataforma de nuvem hibrida escalável  
-    - Cargos CTO, lideres de tecnologis, arquitetos e engenheiros 
+        - Criação de uma plataforma de nuvem hibrida escalável  
+        - Cargos CTO, lideres de tecnologis, arquitetos e engenheiros 
 
     Perspectiva de segurança 
-    - Garantia de confidecialidade, integridade e disponilidade dos dados
-    - Cargos de Ciso, CCO, lideres de auditoria interna e arquitetos e engenheiros de segurança  
+        - Garantia de confidecialidade, integridade e disponilidade dos dados
+        - Cargos de Ciso, CCO, lideres de auditoria interna e arquitetos e engenheiros de segurança  
 
     Perspectiva de Operações 
-    - Garantia da entrega de serviços de nuvem atendendo ás necessidades da empresa 
-    - Cargos de lideres de infraesrutura e opreações, engenheiros de confiabilidade do local e gerentes de serviços de tecnologia da informação 
+        - Garantia da entrega de serviços de nuvem atendendo ás necessidades da empresa 
+        - Cargos de lideres de infraesrutura e opreações, engenheiros de confiabilidade do local e gerentes de serviços de tecnologia da informação 
 
 #### Estratégias de Migração para a Nuvem com AWS 
 
 Estratégias de Migração
-- Métodos ou Abordagens 
-    - Planejar 
-    - Executar 
-    - Validar 
+    - Métodos ou Abordagens 
+        - Planejar 
+        - Executar 
+        - Validar 
 
-- Tipo, complexidade e criticidade 
-- objetivos, requisitos e restrições de negocios 
-- Tempo, custo, risco e beneficio 
+    - Tipo, complexidade e criticidade 
+    - objetivos, requisitos e restrições de negocios 
+    - Tempo, custo, risco e beneficio 
 
 As sete estratégias de migração para a Nuvem 
 (7 Rs)
 
-- Retire(retirada)
-    - Manter aplicativos no ambiente de origem ou adiar a migração
+    - Retire(retirada)
+        - Manter aplicativos no ambiente de origem ou adiar a migração
 
-- Retain (reter)
-    - Mater aplicativos no ambiente de origem ou adiar sua migração para a nuvem 
+    - Retain (reter)
+        - Mater aplicativos no ambiente de origem ou adiar sua migração para a nuvem 
 
-Rehost (Rehospedar)
-    - Mover aplicativos para a nuvem sem modificalos (lift and shift)
+    Rehost (Rehospedar)
+        - Mover aplicativos para a nuvem sem modificalos (lift and shift)
 
-Relocade(Realocar)
-    - tranferir servidores ou instancias para outra plataforma na nuvem 
+    Relocade(Realocar)
+        - tranferir servidores ou instancias para outra plataforma na nuvem 
 
-Repurchase(Recompra)
-    - Substituir o aplicativo por uma versão ou produto diferente 
+    Repurchase(Recompra)
+        - Substituir o aplicativo por uma versão ou produto diferente 
 
-Replatform(Realocação de plataformas)
-- Mover aplicativos para a nuvem e otimizá-los para reduzir custos ou melhorar o desempenho 
+    Replatform(Realocação de plataformas)
+    - Mover aplicativos para a nuvem e otimizá-los para reduzir custos ou melhorar o desempenho 
 
-Refactor or Re-architect(Refatorar ou Rearquitetar)
-    - Modificar a arquitetura do aplicativo ao movê-lo para a nuvem, aproveitando os recursos nativos para melhoar  agilidade, desempenho e escalabilidade 
+    Refactor or Re-architect(Refatorar ou Rearquitetar)
+        - Modificar a arquitetura do aplicativo ao movê-lo para a nuvem, aproveitando os recursos nativos para melhoar  agilidade, desempenho e escalabilidade 
 
-Fatores na Escolha da estratégia de migração 
-    - Tipo, complexidade e criticidade dos workloads
-    - Objetivos, requisitos e restrições de negócios 
-    - Tempo, custo e risco da migração 
-    - Nível de maturidade e prontidão para a nuvem 
+    Fatores na Escolha da estratégia de migração 
+        - Tipo, complexidade e criticidade dos workloads
+        - Objetivos, requisitos e restrições de negócios 
+        - Tempo, custo e risco da migração 
+        - Nível de maturidade e prontidão para a nuvem 
 
 
-Exemplos de estratégias de migração para a nuvem aws
- Rehosting 
-    - Replicação de banco de dados 
-        - copiar dados de um banco local para uma na nuvem AWS, mantendo a estrutura 
-        - utilização do AWS Database Migration Service (AWS DMS)
-        - Migração rápida, segura e confiável 
+    Exemplos de estratégias de migração para a nuvem aws
+    Rehosting 
+        - Replicação de banco de dados 
+            - copiar dados de um banco local para uma na nuvem AWS, mantendo a estrutura 
+            - utilização do AWS Database Migration Service (AWS DMS)
+            - Migração rápida, segura e confiável 
 
- Replatform
-    - Uso do AWS Snowball Edge 
-        - Dispositivo fisico para transferir grandes volumes de dados pra a nuvem AWS
-        - Evita limitações de largura de banda, tempo ou segurança da internet
+    Replatform
+        - Uso do AWS Snowball Edge 
+            - Dispositivo fisico para transferir grandes volumes de dados pra a nuvem AWS
+            - Evita limitações de largura de banda, tempo ou segurança da internet
 
- Refactor or Re-architect
-    - Uso do Amazon lambda 
-        - redesenhar workloads para se adaptarem aos recursos nativos da nuvem AWS
-        - Serviço para executar código sem provisionar ou gerenciar servidores 
-        - Escalabilidade, performance e custo otimizado 
+    Refactor or Re-architect
+        - Uso do Amazon lambda 
+            - redesenhar workloads para se adaptarem aos recursos nativos da nuvem AWS
+            - Serviço para executar código sem provisionar ou gerenciar servidores 
+            - Escalabilidade, performance e custo otimizado 
