@@ -211,6 +211,7 @@ Exemplo 3 - Otimização de custos x Sustentabilidade
 
 #### AWS CAF 
 
+teste
     - Identificar e priorizar opurtunidades de transformação digital
     - Avaliar e aumentar a prontidão para a nuvem 
     - Desenvolver um roteiro para guiar a transição dos negócios para a nuvem
