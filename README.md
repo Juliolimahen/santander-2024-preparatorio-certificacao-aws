@@ -368,3 +368,112 @@ Refactor or Re-architect
     - redesenhar workloads para se adaptarem aos recursos nativos da nuvem AWS
     - Serviço para executar código sem provisionar ou gerenciar servidores 
     - Escalabilidade, performance e custo otimizado 
+
+
+## Aspectos Econômicos da Nuvem AWS
+
+####  Custos fixos x Custos Variáveis 
+
+- Custos Fixos
+    - Não mudam independetemente do uso ou demanda 
+    - Exemplo: servidor fisico na empresa (Manutenção, energia...) 
+
+- Custos Variáveis 
+    - Dependem do uso ou demanda 
+    - Exemplo: Serviço de streaming de video 
+
+#### Vantagens dos custos Variáveis 
+- Economia e eficiência 
+- Flexibilidade e escalabilidade 
+
+#### Pagamento por uso 
+- Transformar os seus custos fixo em custos variáveis 
+- Ter mais flexibilidade, escalabilidade e economia 
+
+#### Custos On-Premises x Custos na Nuvem 
+
+- Ambientes On-Premises: infraestrutura mantida internamente 
+    - Servidores 
+    - Redes
+    - Sistemas operacionais   
+    - Softwares 
+
+- Nuvem: infraestrutura fornecida por provedor de serviços 
+    - serviços que vcs podem contratar e usar na internet 
+
+#### vantagens da nuvem 
+- Reduzir os custos
+- Redução do TCO (Total cost of Ownership) 
+- Reduzir custos diretos 
+- Reduzir custos indiretos 
+- Focar no negócio, aplicação e solução 
+- Otimizar desempenho, segurança, disponibilidade, confiabilidade e inovação 
+
+#### Comparação de custos 
+- Ambientes On-premises
+- Ambientes na Nuvem 
+    - Aws Princing Calculator 
+
+#### Estratégias de licenciamento 
+- Processo de obter o direito de usar um software
+- Bring-Your-Own-License(BYOL)
+    - Uso de licanças existentes na nuvem 
+    - Necessário gerenciar as suas licenças 
+
+- Licenças incluídas 
+    - Pagamento pelo uso do sofware junto com o uso do serviço de nuvem 
+
+Melhor estratégia de Licenciamento 
+    - Depende de fatores como tipo de software, o provedor, o custo, a flexibilidade, a compatibilidade
+    - AWS License Manager 
+
+#### Dimesionamento correto 
+- Ajuste do tamanho e tipo de recursos conforme demanda 
+- Otimização de custos e desempenho 
+
+#### Vantagem de fazer o dimensionamento correto 
+- otimização de custos e desempenho 
+
+#### Dimensionamento na nuvem 
+- Ajuste do tamanho e tipo de recursos conforme demanda e desempenho 
+
+Farramentas e recursos 
+- AWS Compute Optimizer
+- AWS Cost Explorer 
+
+#### Automação 
+- Processo de usar ferramentas e técnicas para executar tarefas de forma automática, sem intervenção humana 
+- AWS CloundFormation 
+
+#### Vantagens de usar Automação 
+- Redução de custos e aumento de eficiêcia 
+- Execução de tarefas sem intervenção humana 
+
+Serviços Gerenciados pela AWS
+- AWS é responsável pela infraestrutura, configuração, atualização, backup e segurança 
+
+Exemplos de serviçõs gerenciados pela AWS 
+- Amazon Relational Database Service (Amazon RDS)
+    - Oferece bancos de dados relacionais 
+    - MySQL, Oracle, PostgreSQL...
+
+Amazon Elastic Container Service (Amazon ECS)
+- serviço que oferece a execução de contêineres 
+    - Docker 
+
+Amazon Elastic Kubernetes Service (Amazon EKS)
+- serviço que oferece a execução de clusters Kubernetes 
+- Kubernetes 
+
+Amazon DynamoDB
+- Serviço que oferece um banci de dados NoSQL 
+    - NoSQL 
+
+Serviços Gerenciados pela AWS
+- reduzir Custos e aumentar a eficiência 
+    - beneficios da nuvem 
+
+
+Ferramentsa para Automação 
+- AWS System Manager 
+- AWS Budgets 
