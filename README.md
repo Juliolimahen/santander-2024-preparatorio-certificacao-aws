@@ -84,8 +84,7 @@ Vantagens da Alta Disponibilidade, Elasticidade e Agilidade
 ## AWS Well-Architected Framework
 
 #### O que é AWS Well-Architected Framework? 
-
-é um conjunto de práticas recomendadas para projetar e operar sistemas na nuvem aws que ajuda aprender as melhores práticas de arquiteturas para sistemas confiáveis, seguros, eficientes, econômicos e sustentáveis na nuvem.
+É um conjunto de práticas recomendadas para projetar e operar sistemas na nuvem aws que ajuda aprender as melhores práticas de arquiteturas para sistemas confiáveis, seguros, eficientes, econômicos e sustentáveis na nuvem.
 
 #### Por que usar o AWS Well-architected Framework?
 
@@ -477,3 +476,87 @@ Serviços Gerenciados pela AWS
 Ferramentsa para Automação 
 - AWS System Manager 
 - AWS Budgets 
+
+# Modelo de Responsabilidade Compartilhada da AWS
+
+É uma forma de definir quais são as responsabilidades da Amazon (AWS) e do cliente na proteção de recusros e dados na nuvem. 
+- Segurança na nuvem é uma responsabilidade compartilhada
+- Segurança da Nuvem (Responsabilidade da AWS) e segurança na Nuvem (Responsabilidade do cliente)
+
+Analogia do aluguel de apartamento:
+
+- Duas partes envolvidas (proprietario e você)
+- proprietario: fornecer o apartamento em boas condições 
+- Inquilino: cuidar do apartamento 
+
+Responsabilidade Compartilhada da AWS
+- Fornecer serviços de nuvem em boas condições 
+- Manter infraestrutura, sistemas operacionais e plataformas funcionando 
+- Garantir segurança fisica da infraestrutura 
+
+Responsabilidade Compartilhada cliente 
+- Cuidar dos recursos e dados na nuvem 
+- Manter proteção e organização dos dados 
+- Pagar as contas em dia e não causar danos aos serviços 
+
+Responsabilidade Compartilhadas 
+- Criptografia de dados 
+- Gestão de identidade e acesso 
+- Configuração de firewalls 
+
+Segurança da Nuvem (Responsabilidade da AWS)
+- Proteção da infraestrutura da nuvem 
+- Hardware, software, redes e instalações
+- Conformidade com padrões do setor
+
+Segurança na Nuvem (Responsabilidade do cliente)
+- Proteção de recursos e dados utilizados na nuvem 
+- Sistema operacional, sofwares, configuranção de rede, dados armazenados 
+- Garantia de conformidade com leis e regulamentos 
+
+# Categorias de Serviços em Nuvem 
+- Infraestrutura como serviço(IaaS)
+    - Nivel mais baixo de abstração 
+    - Cliente tem acesso direto aos recursos de computação, armazenamento e rede na nuvem
+    - Criação e execução de máquinas virtuais na nuvem 
+    - Amazon EC2 
+
+- Plataforma como Serviço (Paas)
+    - Nivel intermediario de abstração 
+    - Cliente foca apenas na plataforma para desenvolver e executar aplicações
+    - AWS Lambda 
+
+- Software como Serviço (Saas)
+    - Nivel mais alto de abstração 
+    - Cliente foca apenas no software para realizar suas tarefas 
+    - Amazon S3 
+
+### Exemplos 
+
+#### IaaS 
+- Maior controle e resposabilidade para o cliente 
+- Cliente gerencia sistema operacional, softwares, cofiguração de rede, permissões de acesso, dados
+- AWS protege infraestrutura fisica, redes, instalações 
+- Responsabilidade maior do cliente q da amazon 
+
+#### Paas 
+- Controle e responsabilidade intermediários 
+- Cliente gerencia código das aplicações, configurações de rede, permissões de acesso, dados 
+- AWS protege infraestrutura física, redes, instalações, sistemas operacionais, plataformas 
+
+#### SaaS
+- Menor controle e responsabilidade para o cliente 
+- Cliente gerencia dados(incluindo criptografia) e permissões de acesso
+- Aws protege infraestrutura fisca, redes, instalações, sistemas operacionais, plataformas, software
+- Resposabilidade é menor para o cliente e maior para a amazon
+
+### Variação de Responsabilidades 
+- Abstração do serviço influencia a distribuição das responsabilidades
+- Serviços mais abstratos implicam em menor responsabilidade para o cliente 
+- Escolha do serviço deve considerar segurança, desempenho, custo e flexibilidade 
+
+### Garantia de segurança na nuvem 
+- AWS responsável pela segurança da infraestrutura 
+- cliente responsável pela segurança dos recursos e dados 
+- responsabilidade varia conforme o tipo de seriço: 
+Maior para IaaS, intermediaria para PaaS e menor para Saas.
