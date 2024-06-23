@@ -560,3 +560,145 @@ Segurança na Nuvem (Responsabilidade do cliente)
 - cliente responsável pela segurança dos recursos e dados 
 - responsabilidade varia conforme o tipo de seriço: 
 Maior para IaaS, intermediaria para PaaS e menor para Saas.
+
+### Sergurança, Governança e Conformidade
+
+#### Iniciando com AWS Artifact
+
+- Recurso indispensável para conformidade na nuvem AWS
+- Oferece acesso a elatórios e acordos de associados 
+- Facilita entendimento e demonstração da conformidade 
+
+Se dastaca por relatórios de auditoria como: 
+- SOC 1 
+- SOC 2
+- SOC 3
+- PCI DSS nível 1 
+
+Acordos de Associados de negócios 
+- Especificam as responsabilidades e obrigações de cada parte na gestão de dados
+- Exemplo: BAA da HIPPA
+- Importantes para gestão de dados de saúde 
+
+Beneficios
+- Facilita acesso à documentação importante de conformidade 
+- Simplifica o processo de auditória 
+- Permite foco em inovação ao reduzir burocracia 
+
+
+#### Analogia 
+
+Expedição em uma selva desconhecida 
+
+- Aws Artifact guia na jornada da Conformidade Regulatória 
+- Oferece orientação com detalhes e requisitos 
+- Garante uma exploração segura no mundo regulatório 
+
+
+### Navegando pela Conformidade Geográfica e Setorial 
+
+Estratégias de conformidade geográfica e Setorial 
+- Especificações para o GDPR: Proteçãos e privacidade dos dados na Europa 
+- implementações ficadas no LGPD: Atendimento às exigências de proteção de dados no Brasil 
+- ADoção de abordagem global para garantir conformidade em diferentes regiãos e setores 
+
+Benefícios da Abordagem Global 
+- Permite que empresas globais operem com eficiência em diferentes cenãrios regulatórios 
+- Facilita navegação pela complexidades da conformidade 
+- Adoção de abordagem global para garantir conformidade em diferentes regiões e setores 
+
+
+#### Analogia 
+
+Quebra-Cabeça 
+- Conformidad como um quebra-cabeça que varia por localização e setor 
+- AWS como um conjunto de peças pré-montadas que se ajustam ás diferentes exigências regulatórias 
+- Peças ajustáveis ás diferentes exigências regulatórias globais, como 
+GDPR e LGPD, facilitando a conformidade empresarial 
+
+#### Protegendo Recursos com ferramentas AWS 
+
+Segurança multifacetada 
+- Proteção de dados 
+- Defesa contra ataques cibernéticos
+- Conjunto de ferranmentas para salvaguradar seus recursos  
+
+#### Ferramentas Chave de segurança na AWS
+
+- Amazon Inspector: Avaliação automatizada de segurança e recomendações para remediação de vunerabilidades. 
+- AWS Security Hub: Consolidadção de alertas de segurança e gestão simplificada da postura de segurança. 
+- Amazon GuardDuty: Monitoramento de atividades suspeitas e maliciosas com detecção baseada em inteligência artificial 
+- AWS Shield: Proteção contra ataques DDoS com serviço gerenciado ativado automaticamente
+
+Benefícios da implementação das ferramentas de segurança 
+- Fortalecimento da postura de segurança dos clientes AWS
+- Alertas automatizados e proteção proativa contra diversas ameaças cibernáticas 
+- Foco em inovação e crescimento com a segurança garantida pela AWS
+
+#### Analogia 
+Castelo Medieval 
+- Sgurança dos recursos na AWS como a construção e manutenção de um castelo medieval 
+- Ferramentas de segurança como diferentes camadas de defesa do castelo 
+- Amazon Inspector 
+- AWS Security Hub 
+- Amazon GuardDuty 
+- AWS Shield
+
+
+#### Criptografia na AWS 
+
+- Protege dados em trânsito e em repouso 
+- Assegura confidencialidade e integridade dos dados 
+- Vital para a segurança das informações em ambientais digitais 
+
+#### Soluções para criptografia na AWS
+
+- AWS Key management Service (KMS): Crie e controla chaves de criptografia 
+- AWS cloudHSM: Oferece ambiente dedicado para gerenciamento de chaves 
+
+Flexibilidade e Escalabilidade
+- atende organizações de todos os tamanhos e tipos 
+- Proporciona soluções acessíveis e eficazes
+- Adaptável às exigências especificas de cada empresa 
+
+#### Analogia
+
+Cofre pessoal 
+- AWS key Management service (KMS)
+- AWS CloudHSM
+- Oferece diferentes niveis de segurança e chaves personalizadas 
+- Garante acesso a pessoas autorizadas
+
+#### Governaça e Conformidade com Monitoramento e Auditoria 
+
+Ferramentas Essenciais para Governaça e Conformidade
+- Amazon CloudWatch: Fornece metricas detalhadas e monitoramento em tempo real
+- AWS CloudTrail: Registra eventos e ações, crucial para a auditoria e análise forense
+- AWS Audit Manager: Simplifica a coleta de evidências de conformidade 
+- AWS Config: Avalia as configurações de recursos em realação aos padrões desejados 
+
+Visão continua da conformidade
+- Permitem ajuste em tempo real 
+- Asseguram a aplicação rigorosa das politicas de governaça 
+- Otimizam os recusrsos e a detecção proativa de potenciais vulnerabilidades
+
+#### Analogia 
+
+Capitão de um Navio 
+- Aws CloudWatch 
+- Aws CloudTrail 
+- Aws CloudWatch e CloudTrail são como o mapa estelar e o compasso, ajudando a navegar 
+- AWS Audit Manager
+- AWS Config
+- AWS Audit Manager e  AWS Config são como o diário de bordo e as verificações regulares do navio, garantindo conformidade e segurança. 
+
+
+#### Compreendendo a Variedade de Requisitos de Conformidade 
+
+Variação nos Requisitos de Conformidade 
+- Reconhecimento das diferença nos requisitos 
+- adaptaçõa das estratégias conforme necessário 
+
+Estratégias Especificas para cada serviços 
+- Adaptação do uso dos serviços AWS às necessudades de conformidade especificas
+- Personalização das estrategias conforme o projeto ou a indústria 
