@@ -1006,14 +1006,219 @@ AWS Trusted Advisor
 
 
 
-
-
-
 ### Modelos de Preços da AWS
 
 #### Opções de Compra de Computação na AWS
+
 Opções de Compra de Computação na AWS
 - Oferece diversas opções para atender diferentes necessidades
 de negócios e técnicas
 - Exemplos: instâncias sob demanda, instâncias reservadas, Spot Instances, Savings Plans, hosts dedicados, instâncias
 dedicadas e reserva de capacidade
+
+Instâncias Sob Demanda
+- Maior flexibilidade de pagamento por hora ou segundo
+- Possibilidade de parar a instância e não incorrer em custos quando não estiver em uso
+- Ideal para aplicações com demandas variáveis ou imprevisíveis
+
+Instâncias Reservadas
+- Desconto significativo (até 75%) em comparação com instâncias
+sob demanda
+- Compromisso de uso por um ou três anos
+- Adequado para aplicações com estado estável ou previsível
+
+Spot Instances
+- Aproveita a capacidade computacional não utilizada na AWS
+- Dispõe de descontos substanciais e o preço varia de acordo com oferta e demanda
+- Ideal para tarefas que podem ser interrompidas, como processamento em batch
+
+Savings Plans
+- Modelo de compromisso flexível
+- Oferece descontos significativos em relação à utilização sob demanda
+- Compromisso de uso de um ou três anos
+
+Hosts Dedicados e Instâncias Dedicadas
+- Hosts Dedicados: Servidores físicos dedicados para uso exclusivo
+- Instâncias Dedicadas: Rodam em hardware dedicado a um único cliente, mas diferem dos Hosts em flexibilidade quanto à configuração
+
+Reserva de Capacidade
+- Garante disponibilidade da capacidade de computação
+quando necessário
+- Ideal para aplicações críticas que exigem disponibilidade garantida
+
+#### Analogia 
+
+Planos de Celular
+- Instâncias sob demanda são como planos pré-pagos, onde você paga pelo que usa
+- Instâncias reservadas são como contratos de longo prazo com melhores tarifas
+- Spot Instances são como comprar minutos extras a uma taxa mais baixa
+
+Planos de Celular
+- Savings Plans são como planos familiares com flexibilidade
+de uso dentro de um orçamento fixo
+- Hosts dedicados e instâncias dedicadas são como ter um
+plano exclusivo
+
+#### Cobranças de Transferência de Dados
+
+Cobranças de Transferência de Dados
+- Baseadas na quantidade de dados transferidos para fora da AWS para a internet ou entre regiões AWS
+- A transferência de dados para dentro da AWS é geralmente gratuita e a saída é cobrada com base na quantidade de dados transferidos
+
+Transferência para a Internet
+- Custos aumentam com o volume de dados transferidos
+- AWS oferece um nível de uso gratuito
+
+#### Analogia 
+
+Viagem de Carro
+- Transferir dados para a AWS é como entrar em uma cidade (geralmente é gratuito)
+- Transferir dados para fora da AWS ou entre regiões é como os custos ao sair da cidade ou viajar entre cidades
+- Transferência de dados na mesma região é como viajar dentro da mesma cidade, pode ser gratuito ou ter um custo mínimo, dependendo da rota (serviços AWS utilizados)
+
+#### Opções e Níveis de Armazenamento
+
+Opções e Níveis de Armazenamento
+- Oferta de uma variedade de serviços de armazenamento para diferentes necessidades
+- Exemplos: Amazon S3, Amazon EBS e Amazon Glacier
+- Serviços com opções de preço baseadas no volume, frequência de acesso, durabilidade e disponibilidade dos dados
+
+Amazon S3
+- S3 Standard para acesso frequente
+- S3 Intelligent-Tiering para acesso variável
+- S3 Standard-IA para acesso menos frequente
+- S3 One Zone-IA para dados sem necessidade de múltiplas zonas de disponibilidade
+
+
+Amazon EBS
+- Volumes SSD e HDD
+- Adequados para cargas de trabalho de alta performance e armazenamento econômico
+- Preços variam com base no tamanho, desempenho (IOPS) e tipo do volume
+
+Amazon Glacier
+- Solução de baixo custo para arquivamento e backup de longo prazo
+- Dispõe de várias opções de recuperação de dados
+- Opções de recuperação variam em tempo de recuperação e custo
+
+#### Analogia
+
+Opções de Armazenamento para uma Casa
+- Amazon S3 é como um armário grande e acessível para itens de uso diário, com diferentes seções para itens de frequência variada
+- Amazon EBS é como uma garagem para armazenamento de veículos que você precisa acessar rapidamente, com diferentes tamanhos e opções baseadas nas necessidades de performance
+- Amazon Glacier é como um depósito fora da cidade para itens raramente necessários, com opções de recuperação de longo prazo
+
+### Gerenciamento de Cobrança, Orçamento e Custos na AWS  
+
+#### AWS Budgets
+
+AWS Budgets
+- Permite definir politicas de orçamento para monitorar e gerenciar custos da AWS
+- Possibilita criar de orçamentos baseados em custos, uso ou métricas de eficiência
+- Fornece alertas quando os custos ou a utilização excedem
+
+Funcionalidades Principais
+- Oferece flexibilidade para monitorar diversos aspectos, como custos e uso específico de serviços
+- Permite configurar alertas por e-mail ou SMS
+- Dica de Uso: Definir orçamentos com margem de segurança e utilizar alertas proativamente
+
+#### Analogia 
+
+Viagem com Orçamento Limitado
+- AWS Budgets é como o planejamento de viagem com orçamento limitado
+- Ajuda a estebelecer limites para diferentes serviços
+- Gera alertas como aplicativo de finanças pessoais
+
+#### AWS Cost Explorer
+
+AWS Cost Explorer
+- Permite visualizar e gerenciar custos e uso ao longo do tempo
+- Possibilita filtrar e agregar dados por diversos parâmetros
+- Ajuda a identificar tendências de custos, padrões de uso
+e oportunidades de otimização
+
+Funcionalidades Principais
+- Geração de relatórios detalhados para insights sobre recursos
+mais consumidos e maiores custos
+- Identificação de serviços subutilizados ou "zumbis" que geram
+custos sem fornecer valor
+- Dica de Uso: Explorar recursos de filtragem para segmentar dados
+de custos e identificar áreas de otimização
+
+#### Analogia 
+
+Ferramenta de Análise Financeira Pessoal
+- AWS Cost Explorer é como usar um aplicativo para rastrear onde
+está gastando mais dinheiro na sua vida cotidiana
+- Ajuda a estebelecer limites para diferentes serviços
+- Gera alertas como aplicativo de finanças pessoais
+
+#### AWS Billing Conductor
+
+AWS Billing Conductor
+- Solução avançada de personalização de cobrança na AWS
+- Permite definir, personalizar e compartilhar relatórios
+detalhados de custos
+- Projetado para organizações com necessidades complexas de
+distribuição de custos
+
+Funcionalidades Principais
+- Criação de modelos de cobrança para refletir utilização por
+equipes, departamentos ou projetos
+- Facilita alocação precisa de custos de acordo com necessidades
+internas e financeiras
+- Dica de Uso: Compartilhar relatórios personalizados com
+interessados para promover transparência e responsabilidade
+
+#### Analogia 
+
+Organização de uma Festa Junina
+- AWS Billing Conductor é como organizar uma festa junina, onde cada turma é responsável por uma barraca diferente
+- Cada departamento ou projeto é como uma barraca com custos e receitas específicas
+- Permite entender contribuição de cada parte para o todo, assim como na festa junina
+
+#### AWS Pricing Calculator
+
+AWS Pricing Calculator
+- Ferramenta para modelar e estimar custos dos serviços AWS antes de sua utilização
+- Interface intuitiva para selecionar e configurar serviços de acordo com as necessidades do usuário
+- Oferece estimativas de custo detalhadas baseadas nas configurações selecionadas
+
+Funcionalidades Principais
+- Útil durante o planejamento e arquitetura de soluções na AWS
+- Oferece estimativas detalhadas com base nas configurações selecionadas
+- Dica de Uso: Experimente diferentes configurações e opções para entender seu impacto nos custos
+
+#### Analogia 
+Orçamento para Reforma de Casa
+- Assim como você estima custos para uma reforma em casa, o AWS Pricing Calculator ajuda a estimar os custos dos serviços AWS
+- Estimar custo de materiais, mão de obra e outros gastos 
+- Garante que a solução na nuvem seja financeiramente viável
+
+#### Cobrança Consolidada e Alocação de Custos com AWS Organizations
+Cobrança Consolidada e Alocação de Custos com AWS Organizations
+- Possibilita que as empresas gerenciem e otimizem os custos em várias contas da AWS
+- Une contas AWS sob uma única conta mestre
+- Permite descontos de volume e administração simplificada
+
+Alocação de Custos
+- Permite que as empresas atribuam custos a diferentes departamentos, projetos ou iniciativas dentro da organização
+- Facilita a compreensão detalhada de onde os recursos estão sendo consumidos e por quê
+- Dica de Uso: Estabeleça uma estrutura de tags de alocação de custos consistente para facilitar análise e acompanhamento dos custos
+
+#### Analogia 
+
+Compra em Atacadista
+- Cobrança consolidada é como uma família que faz compras em um atacadista para obter preços melhores
+- Alocação de custos é como usar etiquetas para rastrear quem consome o quê, garantindo contribuição justa para os gastos totais
+
+Tags de Alocação de Custos
+- Identificadores atribuídos a recursos da AWS para categorizar e rastrear custos
+- Permite ver exatamente como e onde os recursos estão sendo consumidos
+- Possibilita gerar relatórios de cobrança detalhados que facilitam a análise de custos
+
+#### Analogia 
+
+Compra em Atacadista
+- Tags de alocação de custos como etiquetas em itens em uma loja
+- Etiquetas fornecem informações sobre o produto
+- Tags de alocação de custos ajudam a categorizar e controlar os gastos
